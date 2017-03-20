@@ -1,0 +1,381 @@
+*{
+	box-sizing: border-box;
+}
+
+img {
+	width: 95%;
+	display: block;
+	padding: 0 auto;
+	margin:0 auto;
+}
+
+body {
+	background-color: white;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.spacer {
+	height: 75px;
+	margin: 0;
+}
+
+.background-color {
+    background: repeating-linear-gradient(
+  		45deg,
+  		#e8eb9e,
+  		#e8eb9e .15%,
+  		white .5%,
+  		white 1% );
+	width:101%;
+	margin: 0;
+	padding: 0;
+}
+
+.background-color-2 {
+	background-color: lightgrey;
+	width:100%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+
+.background-color-4 {
+	background-color: grey;
+	width:100%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.wedding-header {
+	background-image: url(Mitch&Rebecca.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right;
+	width: 100%;
+	  height: auto;
+	}
+
+.wedding-header-2 {
+	background-image: url(the-date.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom ;
+	width: 100%;
+	  height: 800px;
+	}
+
+.header {
+	 height: 650px;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: cursive, sans-serif;
+}
+
+p {
+	font-family: "Arial", serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2.25em;
+}
+
+hr {
+	width: 35%;
+	border-width: 3px; 
+	border-radius: 50%;
+	padding: 0;
+	margin:0 auto;
+}
+
+.black {
+	border-color: black;
+
+}
+
+.header {
+	margin-top: 5%;
+}
+
+.list{
+	list-style-type: none;
+	margin: 0 auto;
+    padding: 0;
+}
+
+.list li {
+	margin: 0 auto;
+}
+
+
+.list-item {
+	margin: 0 auto;
+	padding: 3% 0;
+}
+
+.list-item img {
+	margin: 5% auto;
+}
+
+.list-item p {
+	background-color: white;
+    vertical-align: text-bottom;
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    border: 1px solid black;
+  }
+
+  #story {
+  	margin-top: 5%;
+  }
+
+  .couple-info img{
+  	border-radius: 50%;
+  }
+
+.btn {
+	margin-bottom: 5% 0;
+
+}
+
+.btn h4 {
+	font-size: 2rem;
+	margin: 2% auto;
+}
+
+  .wedding-info  {
+  	height: 200px;
+  	margin: 0 auto;
+  	padding: 0 auto;
+  }
+
+  .wedding-info p{
+    background-color: white;
+    margin: 3% auto 0 auto;
+    font-size: 1.5em;
+    border: 1px solid black;
+    min-height: 125px;
+    width: 85%;
+  }
+
+  .wedding-list {
+  	margin: 0 auto;
+  	padding: 0 auto;
+  }
+
+  .wedding-list li {
+  	margin: 3% auto;
+  	padding: 0 auto;
+  }
+
+   .wedding-list img {
+  	width: auto;
+  	vertical-align: top;
+  	max-height: 225px;
+  	margin: 0 auto;
+  	padding: 0 auto;
+  }
+
+ .reception-img {
+  position: relative; 
+  bottom:235px ;
+ } 
+
+ .reception-info {
+   position: relative;
+   top: 225px;
+   padding-top: 0;
+ }
+
+ .bridesmaids-list h4{
+ 	min-height: 40px;
+ }
+  .groomsmen-list h4{
+ 	min-height: 40px;
+ }
+ .bridesmaids-list p{
+ 	font-family: cursive, sans-serif;
+ 	margin: 0 auto;
+ }
+  .groomsmen-list p{
+ 	font-family: cursive, sans-serif;
+ 	margin: 0 auto;
+ }
+ 
+  .bridesmaids-list li{
+   margin-bottom: 5%;
+}
+
+ .groomsmen-list li{
+ 	margin-bottom: 5%;
+ }
+ 
+
+ #bridesmaids {
+   padding: 0 auto;
+   margin: 5% auto 2.5% auto;
+ }
+
+ #bridesmaids hr {
+ 	width: 15%;
+ }
+
+ #groomsmen {
+   padding: 0 auto;
+   margin: 5% auto 2.5% auto;
+ }
+
+ #groomsmen hr {
+ 	width: 15%;
+ }
+
+ .wedding-party{
+ 	border-radius: 50%;
+ 	width: 80%;
+ 	  height: auto;
+ 	margin: 5% auto;
+ }
+
+ #registry {
+ 	margin-bottom: 5%;
+ }
+
+ .registry {
+ 	border-radius: 50%;
+ 	width: 55%;
+ 	display: block;
+ }
+
+ .celebrate button {
+ 	margin: 0 auto;
+ 	padding: 0 auto; 
+ }
+
+ form {
+ 	margin-top: 5%;
+ }
+
+ .coming p{
+ 	font-size: 1em;
+ }
+
+ .fadeInBlock {
+ 	opacity: 0;
+ }
+
+ .fadeInBlockFast {
+ 	opacity: 0;
+ }
+
+ .fadeInBlockMed {
+ 	opacity: 0;
+ }
+
+ .fadeInBlockSlow {
+ 	opacity: 0;
+ }
+ 
+ .activeHover {
+ 	-webkit-transition: transform 1s;
+ 	-moz-transition: transform 1s;
+ 	-o-transition: transform 1s;
+    transition: transform 1s;
+ }
+
+.activeHover:hover {
+	transform: translateY(-20px);
+}
+
+.activeHover-btn {
+ 	-webkit-transition: transform 1s;
+ 	-moz-transition: transform 1s;
+ 	-o-transition: transform 1s;
+    transition: transform 1s;
+ }
+
+.activeHover-btn:hover {
+	transform: translateY(-10px);
+}
+  
+@media only screen and (max-width: 992px) {
+  .header {
+	margin-top: -3%;
+  }
+
+  .wedding-header-2 {
+  	height: 650px;
+  }
+
+  .list-item {
+  	width: 100%;
+  }
+  .couple-info img {
+  	width: 65%;
+  }
+
+  .btn h4 {
+	font-size: 3rem;
+  }
+
+  .wedding-list img {
+  	display: none;
+  }
+
+  .wedding-info  {
+  	height: auto;
+  }
+
+  .wedding-info p {
+  	width: 90%;
+  }
+
+  .reception-img {
+  bottom: 0;
+ } 
+
+ .reception-info {
+   top: 0;   
+ }
+
+ .wedding-list li {
+  	margin: 2% auto;
+  }
+
+
+
+@media only screen and (max-width: 767px) {
+ 
+ .wedding-info p {
+    width: 65%;	
+  }
+
+   .bridesmaids-list p{
+ 	display: none;
+ }
+  .groomsmen-list p{
+ 	display:none;
+ }
+
+
+
+
+}
+
+@media only screen and (max-width: 420px) {
+	
+	.wedding-header-2 {
+  	height: 650px;
+  	background-position: center;
+  }
+
+}
